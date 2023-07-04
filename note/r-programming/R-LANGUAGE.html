@@ -1,0 +1,701 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Carlito;}
+@font-face
+	{font-family:"Trebuchet MS";
+	panose-1:2 11 6 3 2 2 2 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Carlito",sans-serif;}
+h1
+	{margin-top:.45pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:5.0pt;
+	text-autospace:none;
+	font-size:18.0pt;
+	font-family:"Trebuchet MS",sans-serif;
+	font-weight:normal;}
+h2
+	{margin-top:1.3pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:5.0pt;
+	text-autospace:none;
+	font-size:16.0pt;
+	font-family:"Trebuchet MS",sans-serif;
+	font-weight:normal;}
+h3
+	{margin-top:4.5pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:5.0pt;
+	text-autospace:none;
+	font-size:13.0pt;
+	font-family:"Trebuchet MS",sans-serif;
+	font-weight:normal;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin-top:3.3pt;
+	margin-right:160.15pt;
+	margin-bottom:0in;
+	margin-left:164.2pt;
+	text-align:center;
+	text-autospace:none;
+	font-size:20.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:5.0pt;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Carlito",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{text-autospace:none;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.5pt 842.0pt;
+	margin:71.0pt 71.0pt 59.0pt 67.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:595.5pt 842.0pt;
+	margin:79.0pt 71.0pt 59.0pt 67.0pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:595.5pt 842.0pt;
+	margin:71.0pt 71.0pt 59.0pt 67.0pt;}
+div.WordSection3
+	{page:WordSection3;}
+@page WordSection4
+	{size:595.5pt 842.0pt;
+	margin:70.0pt 71.0pt 59.0pt 67.0pt;}
+div.WordSection4
+	{page:WordSection4;}
+@page WordSection5
+	{size:595.5pt 842.0pt;
+	margin:70.0pt 71.0pt 59.0pt 67.0pt;}
+div.WordSection5
+	{page:WordSection5;}
+@page WordSection6
+	{size:595.5pt 842.0pt;
+	margin:70.0pt 71.0pt 59.0pt 67.0pt;}
+div.WordSection6
+	{page:WordSection6;}
+@page WordSection7
+	{size:595.5pt 842.0pt;
+	margin:70.0pt 71.0pt 59.0pt 67.0pt;}
+div.WordSection7
+	{page:WordSection7;}
+@page WordSection8
+	{size:595.5pt 842.0pt;
+	margin:70.0pt 71.0pt 59.0pt 67.0pt;}
+div.WordSection8
+	{page:WordSection8;}
+@page WordSection9
+	{size:595.5pt 842.0pt;
+	margin:70.0pt 71.0pt 59.0pt 67.0pt;}
+div.WordSection9
+	{page:WordSection9;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoTitle>R LAUGUAGE</p>
+
+<p class=MsoBodyText style='margin-top:.4pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:10.5pt;
+font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<h2 style='margin-top:1.95pt'><span style='color:#2E5395'>DATA LOADING(TYPE<span
+style='letter-spacing:-2.85pt'> </span>2)</span></h2>
+
+<p class=MsoBodyText style='margin-top:2.3pt'>a1=c(64,78,48,11,47,50,47,06,63,34)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt'>a2=c<span style='letter-spacing:
+-1.05pt'> </span>(22,43,77,76,66,39,44,34,84,85)</p>
+
+<p class=MsoBodyText style='margin-top:9.15pt'>a3=c<span style='letter-spacing:
+-1.05pt'> </span>(24,66,18,20,10,45,62,96,09,44)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt;margin-right:364.05pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>a=cbind (a1, a2,
+a3) summary (a) boxplot (a)</p>
+
+<h2 style='margin-top:4.15pt'><span style='color:#2E5395'>DATA LOADING(TYPE<span
+style='letter-spacing:-2.85pt'> </span>3)</span></h2>
+
+<h3><span style='color:red'>MATRIAL STATUS DATA</span></h3>
+
+<p class=MsoBodyText style='margin-top:1.75pt;margin-right:191.7pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>status=matrix(c(180,210,70,40),
+nrow=1,ncol=4, byrow=T) rownames (status)=c(&quot;Marital Status&quot;)</p>
+
+<p class=MsoBodyText style='margin-top:.15pt;margin-right:126.15pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>colnames
+(status)=c(&quot;Never married&quot;,
+&quot;Married&quot;,&quot;Divorced&quot;,&quot;Widowed&quot;) status</p>
+
+<p class=MsoBodyText style='margin-top:.15pt;margin-right:184.5pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>barplot (status,
+beside=T,main=&quot;Graphical Representation&quot;, legend.text=rownames (status),col='green')</p>
+
+<h1 style='margin-top:4.45pt'><span style='color:#2E5395'>FREQUENCY COUNT</span></h1>
+
+<p class=MsoBodyText style='margin-top:2.45pt'>a=c(1,1,1,3,4,3,5,5,6,6,6,2,1,3,7,7,7,4,3,5,7,1,2,3,4,8)</p>
+
+<p class=MsoBodyText style='margin-top:9.15pt;margin-right:403.05pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>b=table (a) b</p>
+
+<p class=MsoBodyText style='margin-top:.15pt;margin-right:199.2pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>cbind (b)
+plot(b,col='red',xlab='Numbers',ylab='Frequency',lwd=3)</p>
+
+<h2 style='margin-top:4.35pt'><span style='color:#2E5395'>HISTROGRAM</span></h2>
+
+<h3 style='margin-top:4.4pt'><span style='color:red'>TYPE 1</span></h3>
+
+<p class=MsoBodyText style='margin-top:1.9pt;margin-right:43.05pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>a=rep(c(149.55,154.55,159.55,164.55,169.55,174.55,179.55,184.55),c(1,3,24,58,60,27,2,2))
+H=hist (a,
+breaks=c(144.55,149.55,154.55,159.55,164.55,169.55,174.55,179.55,184.55))</p>
+
+<p class=MsoBodyText style='margin-top:.15pt'>H$counts= H$counts/(5*sum
+(H$counts))</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt;margin-right:51.0pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>plot (H,
+xlab=&quot;Height&quot;,ylab=&quot;Relative Frequency
+Density&quot;,main=&quot;Hisogram&quot;,ylim=c(0,0.1)) # With normal
+approximation</p>
+
+<p class=MsoBodyText style='line-height:13.3pt'>curve (dnorm (x,mean(a),
+sd(a)),col=&quot;blue&quot;, add=TRUE)</p>
+
+</div>
+
+<span style='font-size:11.0pt;font-family:"Carlito",sans-serif'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<div class=WordSection2>
+
+<p class=MsoBodyText style='margin-top:.35pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:7.0pt'>&nbsp;</span></p>
+
+<h3 style='margin-top:2.55pt'><span style='color:red'>TYPE 2</span></h3>
+
+<p class=MsoBodyText style='margin-left:0in'><span style='font-size:13.0pt;
+font-family:"Trebuchet MS",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-top:9.2pt;margin-right:40.55pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>a=rep(c(149.55,154.55,159.55,164.55,169.55,174.55,179.55,
+184.55),c(1,3,24,58,60,27,2,2)) H=hist (a,
+breaks=c(144.55,149.55,154.55,159.55,164.55,169.55,174.55,179.55, 184.55))</p>
+
+<p class=MsoBodyText style='margin-top:.05pt'>H$counts= H$counts/5</p>
+
+<p class=MsoBodyText style='margin-top:9.15pt;margin-right:92.15pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>plot
+(H,xlab=&quot;Height&quot;,ylab=&quot;Frequency Density&quot;, main=&quot;Hisogram&quot;,ylim=c(0,15))
+# With normal approximation</p>
+
+<p class=MsoBodyText style='margin-top:.15pt'>b=length(a)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt'>curve (b*dnorm(x,mean(a),
+sd(a)),col=&quot;blue&quot;, add=TRUE)</p>
+
+<p class=MsoBodyText style='margin-left:0in'>&nbsp;</p>
+
+<p class=MsoBodyText style='margin-top:.15pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:15.0pt'>&nbsp;</span></p>
+
+<h3 style='margin-top:0in'><span style='color:red'>TYPE 3</span></h3>
+
+<p class=MsoBodyText style='margin-top:1.75pt;margin-right:43.05pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>a=rep(c(149.55,154.55,159.55,164.55,169.55,174.55,179.55,184.55),c(1,3,24,58,60,27,2,2))
+H=hist(a,breaks=c(144.55,149.55,154.55,159.55,164.55,169.55,174.55,179.55,184.55))</p>
+
+<p class=MsoBodyText style='margin-top:.05pt;margin-right:133.1pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>plot(H,xlab=&quot;Height&quot;,ylab=&quot;Frequency&quot;,main=&quot;Hisogram&quot;,ylim=c(0,70))
+b=length(a)</p>
+
+<p class=MsoBodyText style='margin-right:184.95pt;line-height:167%'>b1=min(diff
+(H$breaks)) curve(b*b1*dnorm(x,mean(a),sd(a)),col=&quot;blue&quot;, add=TRUE)</p>
+
+<h1 style='margin-top:4.15pt'><span style='color:#2E5395'>BOX PLOT</span></h1>
+
+<h3 style='margin-top:4.7pt'><span style='color:red'>TYPE 1</span></h3>
+
+<p class=MsoBodyText style='margin-top:1.75pt'>a=c(31,71,69,59,70,74,41,87,37,46,56,34,62,15,53,81,76,24,21,8)</p>
+
+<p class=MsoBodyText style='margin-top:9.15pt;margin-right:395.3pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>summary (a)
+boxplot (a)</p>
+
+<p class=MsoBodyText style='margin-top:.15pt'>boxplot (a, col =
+&quot;red&quot;)</p>
+
+<h3 style='margin-top:9.3pt'><span style='color:red'>TYPE 2</span></h3>
+
+<p class=MsoBodyText style='margin-top:1.8pt'>a=c(31,71,69,59,70,74,41,87,37,46,56,34,62,15,53,81,76,24,21,8)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt'>b=c(10,23,55,60,62,68,53,78,60,87,78,93,94,90,65,88,76,96,86,66)</p>
+
+<p class=MsoBodyText style='margin-top:9.15pt'>dat=cbind (a,b)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt;margin-right:274.85pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>colnames(dat)
+=c(&quot;Marks A&quot;,&quot;Marks B&quot;) boxplot (dat)</p>
+
+<p class=MsoBodyText style='line-height:13.3pt'>boxplot(dat,col
+=c(&quot;red&quot;,&quot;blue&quot;))</p>
+
+</div>
+
+<span style='font-size:11.0pt;font-family:"Carlito",sans-serif'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<h1><span style='color:#2E5395'>STEM- LEAF<span style='letter-spacing:-3.0pt'> </span>PLOT</span></h1>
+
+<p class=MsoBodyText style='margin-top:2.45pt'>a=c(11,13,18,16,21,29,24,30,39,34,33)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt'>stem (a)</p>
+
+<p class=MsoBodyText style='margin-top:9.05pt'>b=c(11,13,18,16,21,29,24,30,39,34,33,48,
+47,42,50,55,53,52,61,69,65,62)</p>
+
+<p class=MsoBodyText style='margin-top:9.1pt'>stem (b)</p>
+
+<p class=MsoBodyText style='margin-top:9.05pt'>stem (b, scale=2)</p>
+
+<p class=MsoBodyText style='margin-top:.5pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:10.5pt'>&nbsp;</span></p>
+
+<h2 style='margin-top:0in'><span style='color:#2E5395'>FREQUENCY POLYGON</span></h2>
+
+<p class=MsoBodyText style='margin-top:2.3pt'>a=c(0,1,2,3,4,5,6,7,8)</p>
+
+<p class=MsoBodyText style='margin-top:9.05pt'>b=c (0,4,33,76,50,26,8,1,0)</p>
+
+<p class=MsoBodyText style='margin-top:9.1pt'>plot
+(a,b,type=&quot;o&quot;,xlab=&quot;Number of
+Peas&quot;,ylab=&quot;Frequency&quot;)</p>
+
+<p class=MsoBodyText style='margin-top:.4pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:10.5pt'>&nbsp;</span></p>
+
+<h2 style='margin-top:.05pt'><span style='color:#2E5395'>PIE CHART</span></h2>
+
+<h3><span style='color:red'>TYPE 2</span></h3>
+
+<p class=MsoBodyText style='margin-top:1.75pt;margin-right:50.9pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>states=c(&quot;Punjab&quot;,&quot;Haryana&quot;,
+&quot;Tamil Nadu&quot;,&quot;Andhra Pradesh&quot;, &quot;Uttar Pradesh&quot;,
+&quot;Others&quot;) procurement=c(5486,1248,589,3987,1296, 1654)</p>
+
+<p class=MsoBodyText style='margin-right:92.4pt;line-height:167%'>rice.proc=data.frame(states,procurement)
+rice.proc=transform(rice.proc,percentage=(rice.proc$procurement/14260)*100)
+rice.proc</p>
+
+<p class=MsoBodyText style='line-height:13.2pt'>attach(rice.proc)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt;margin-right:47.75pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>pie(procurement,labels=c(&quot;Punjab(38.47%)&quot;,
+&quot;Haryana (8.75%)&quot;, &quot;Tamil Nadu(4.13%)&quot;, &quot;Andhra
+Pradesh (27.96%)&quot;, &quot;Uttar
+Pradesh(9.09%)&quot;,&quot;Others(11.60%)&quot;), main=&quot;Procurement of
+Rice('000 tonnes)\nduring oct. 1993 to Sept. 1994&quot;, col=c(&quot;royalblue4&quot;,&quot;orchid&quot;,&quot;chocolate4&quot;,&quot;olivedrab3&quot;,&quot;orange3&quot;,&quot;purple
+1&quot;,&quot;violetred4&quot;)) detach(rice.proc)</p>
+
+</div>
+
+<span style='font-size:11.0pt;line-height:167%;font-family:"Carlito",sans-serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection4>
+
+<h2><span style='color:#2E5395'>PLOT OGIVES</span></h2>
+
+<p class=MsoBodyText style='margin-top:2.3pt;margin-right:140.75pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>Height=c(149.55,154.55,159.55,164.55,169.55,174.55,179.55,184.55)
+a = c(1,3,24,58,60,27,2,2)</p>
+
+<p class=MsoBodyText>b=cumsum (a)</p>
+
+<p class=MsoBodyText style='margin-top:9.15pt;margin-right:65.55pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>plot (Height,b,
+type=&quot;o&quot;,ylab=&quot;Cummulative Frequency&quot;,
+col=&quot;blue&quot;,xlim = c(144,185)) a1=rev(a)</p>
+
+<p class=MsoBodyText style='margin-top:.15pt'>b1=cumsum (a1)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt'>b2=rev (b1)</p>
+
+<p class=MsoBodyText style='margin-top:1.1pt'>lines (Height-5,b2,
+type=&quot;o&quot;,col=&quot;red&quot;)</p>
+
+<p class=MsoBodyText style='margin-left:0in'>&nbsp;</p>
+
+<p class=MsoBodyText style='margin-left:0in'>&nbsp;</p>
+
+<p class=MsoBodyText style='margin-left:0in'><span style='font-size:10.0pt'>&nbsp;</span></p>
+
+<h2 style='margin-top:0in'><span style='color:#2E5395'>DESCRIPTIVE STATISTICS</span></h2>
+
+<h3><span style='color:red'>TYPE1</span></h3>
+
+<p class=MsoBodyText style='margin-top:1.9pt'>x=c(70,48,84,21,84,33,64,36,61,50,27,87,41,65,33)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt;margin-right:348.7pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>max (x)-min(x) #
+Range var (x) # Variance</p>
+
+<p class=MsoBodyText style='margin-top:.15pt'>sd(x) # Standard Deviation</p>
+
+<p class=MsoBodyText style='margin-top:9.05pt'>sum (abs (x-40))/length(x) #
+Mean deviation about 50</p>
+
+<p class=MsoBodyText style='margin-top:9.15pt;margin-right:170.2pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>sum (abs (x-mean
+(x)))/length(x) # Mean deviation about mean quantile (x) # Quartiles</p>
+
+<p class=MsoBodyText style='margin-top:.15pt;margin-right:243.6pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>IQR=67.5-64.5 #
+Using Quartile Data (sd(x)/mean (x))*100 # Coefficient of Variation</p>
+
+<h3 style='margin-top:.3pt'><span style='color:red'>TYPE2</span></h3>
+
+<p class=MsoBodyText style='margin-top:1.8pt;margin-right:263.45pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>x=c
+(60,39,75,33,69,47,69,32,59,52,49,63) r=3 # r=1,2,3,4</p>
+
+<p class=MsoBodyText style='line-height:13.3pt'>sum (x^r)/length (x) # Raw
+Moments</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt'>sum ( (x-mean (x))^r)/length(x) #
+Central Moments</p>
+
+</div>
+
+<span style='font-size:11.0pt;font-family:"Carlito",sans-serif'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<div class=WordSection5>
+
+<h2><span style='color:#2E5395'>CORRELATION</span></h2>
+
+<p class=MsoBodyText style='margin-top:2.3pt;margin-right:43.05pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>x=c(126,157,153,156,152,135,145,132,153,143,165,132,180,161,170,176,165,163,157,180)
+y=c(292,367,361,366,343,326,331,307,343,322,363,296,412,377,394,384,370,365,349,403)</p>
+
+<p class=MsoBodyText>z=data.frame(x,y)</p>
+
+<p class=MsoBodyText style='margin-top:9.15pt;margin-right:211.1pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>colnames
+(z)=c(&quot;Marks in School&quot;, &quot;Marks in College&quot;) plot
+(z,col=&quot;blue&quot;) # Scatter Plot</p>
+
+<p class=MsoBodyText style='margin-top:.15pt;margin-right:303.7pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>cor (x,y) #
+Correlation Coefficient cor (z) # Correlation Matrix</p>
+
+<h2 style='margin-top:4.4pt'><span style='color:#2E5395'>REGRESSION</span></h2>
+
+<h3><span style='color:red'>TYPE1</span></h3>
+
+<p class=MsoBodyText style='margin-top:1.8pt;margin-right:38.3pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>x=c(126,157,153,156,
+152,135,145,132, 153,143,165,132,180,161,170,176,165,163,157,180)
+y=c(292,367,361,366,343,326,331,307,343,322,363,296,412,377,394,384,370,365,349,403)</p>
+
+<p class=MsoBodyText style='margin-top:.15pt;margin-right:393.5pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>fit=lm(y~x)
+summary(fit)</p>
+
+<p class=MsoBodyText style='margin-top:.15pt;margin-right:114.85pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>plot (x,y,xlab =
+'Marks in School', ylab='Marks in College',col='blue',cex=1.2,
+pch=16,main='Regression Fit')</p>
+
+<p class=MsoBodyText style='margin-top:.05pt'>abline(fit,lwd=2,col='green’)</p>
+
+<p class=MsoBodyText style='margin-top:9.1pt;margin-right:252.85pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>x1 = data.frame
+(x=seq(min(x),max(x),0.5)) y1=predict (fit, interval=&quot;conf&quot;,newdata=x1)
+y2=predict (fit, interval=&quot;pred&quot;,newdata=x1)</p>
+
+<p class=MsoBodyText style='line-height:13.2pt'>matlines(x1$x,y1,lty=c(1,2,2),col=c(&quot;green&quot;,
+&quot;red&quot;,&quot;red&quot;),lwd=c(2,1,1))</p>
+
+<p class=MsoBodyText style='margin-top:9.15pt'>matlines(x1$x,y2,lty=c(1,3,3),col=c(&quot;green&quot;,
+&quot;black&quot;,&quot;black&quot;),lwd=c (2,1,1))</p>
+
+</div>
+
+<span style='font-size:11.0pt;font-family:"Carlito",sans-serif'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<div class=WordSection6>
+
+<p class=MsoBodyText style='margin-top:1.35pt;margin-right:4.9pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:108%'><span
+style='font-size:13.0pt;line-height:108%;font-family:"Trebuchet MS",sans-serif;
+color:red'>TYPE2 </span>x=c(107,110,121,124,129,132,131,153,142,151,158,152,164,152,162,156,175,178,172,177,174,183,
+172,176)</p>
+
+<p class=MsoBodyText style='margin-top:8.1pt'>y=c(99,82,102,81,89,87,59,112,74,91,116,91,96,85,131,136,
+162,121,137,82,165,159,91,193)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt;margin-right:298.6pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>fit=lm(y~x +
+I(x^2)) # Polnomial Fit summary (fit)</p>
+
+<p class=MsoBodyText style='margin-right:120.1pt;line-height:167%'>plot
+(x,y,xlab ='X',ylab='Y',ylim=c(20,200), col='blue',main='Polynomial Fit',
+cex=1.2,pch=16)</p>
+
+<p class=MsoBodyText style='margin-right:209.85pt;line-height:166%'>x1 =
+data.frame(x=seq(min(x), max (x),0.5))
+lines(x1$x,predict(fit,newdata=x1),col=&quot;green&quot;,lwd=2) y1=predict (fit,interval=&quot;conf&quot;,newdata=x1)
+y2=predict (fit,interval=&quot;pred&quot;,newdata=x1)</p>
+
+<p class=MsoBodyText style='margin-top:.1pt'>matlines(x1$x,y1,lty=c(1,2,2),col=c(&quot;green&quot;,
+&quot;red&quot;, &quot;red&quot;),lwd=c(2,1,1))</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt'>matlines(x1$x,y2,lty=c(1,3,3),col=c(&quot;green&quot;,
+&quot;black&quot;, &quot;black&quot;),lwd=c(2,1,1))</p>
+
+<p class=MsoBodyText style='margin-top:.55pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:10.5pt'>&nbsp;</span></p>
+
+<h2 style='margin-top:0in'><span style='color:#2E5395'>ESTIMATE</span></h2>
+
+<p class=MsoBodyText style='margin-top:2.3pt;margin-right:157.05pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>x1=rnorm(100, 0,
+1) # Generate 100 Random Samples from N(0,1) xbar1=mean<span style='letter-spacing:
+-.2pt'> </span>(x1)</p>
+
+<p class=MsoBodyText style='margin-top:.05pt;margin-right:138.75pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>sd1=sd(x1) # var
+(sd) is sample variance(sd) in R with denominator n-1 x2=rnorm(500, 0, 1) #
+Generate 500 Random Samples from N(0,1) xbar2=mean<span style='letter-spacing:
+-.2pt'> </span>(x2)</p>
+
+<p class=MsoBodyText style='line-height:13.3pt'>sd2=sd(x2)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt;margin-right:145.65pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>x3=rnorm(5000, 0,
+1) # Generate 5000 Random Samples from N(o,1) xbar3=mean (x3)</p>
+
+<p class=MsoBodyText style='margin-top:.15pt'>sd3=sd(x3)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt'>hist(x3,col='green',main=&quot;Histogram&quot;)
+# Histogram for sample size 5000</p>
+
+</div>
+
+<span style='font-size:11.0pt;font-family:"Carlito",sans-serif'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<div class=WordSection7>
+
+<h2><span style='color:#2E5395'>Exponential curve<span style='letter-spacing:
+-3.0pt'> </span>fitting</span></h2>
+
+<p class=MsoBodyText style='margin-top:2.3pt'>x=c(0,.01,.03,.05,.07,.09,.11,.13,.15,.17,.19,.21)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt'>y=c(1,1.03,1.06,1.38,2.09,3.54,6.41,12.6,22.1,1.39,65.32,99.78)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt;margin-right:397.65pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>y1=log(y)
+fit=lm(y1~x)</p>
+
+<p class=MsoBodyText style='margin-right:339.0pt;line-height:167%'>a=exp(fit$coefficients[1])
+b=fit$coefficients[2] summary(fit) plot(x,y,main = &quot;Exp Fit&quot;)</p>
+
+<p class=MsoBodyText style='margin-right:296.05pt;line-height:167%'>x1=seq(min(x),max(x)+0.1,0.01)
+y1=a*exp(b*x1) lines(x1,y1,lty=1,col=&quot;blue&quot;,lwd=2)</p>
+
+<h2 style='margin-top:3.65pt'><span style='color:#2E5395'>NORMAL DISTRIBUTION<span
+style='letter-spacing:-2.8pt'> </span>GRAPH</span></h2>
+
+<p class=MsoBodyText style='margin-top:2.3pt'>x=seq(-5,5,0.1)</p>
+
+<p class=MsoBodyText style='margin-top:9.15pt'>f=dnorm(x,mean = 0.4,sd=1.2)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt;margin-right:83.3pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>plot(x,f,type=&quot;l&quot;,xlim
+= c(min(x),max(x)),ylim =
+c(0,1),lwd=2,col=&quot;blue&quot;,ylab=&quot;f(x)&quot; ) x=seq(-5,5,0.1)</p>
+
+<p class=MsoBodyText style='margin-right:311.0pt;line-height:167%'>f=dnorm(x,mean
+= 0.4,sd=1.2) f1=dnorm(x,mean = 0.4,sd=0.6) f2=dnorm(x,mean = 0.4,sd=1.8)</p>
+
+<p class=MsoBodyText style='line-height:13.2pt'>plot(x,f,type=&quot;l&quot;,xlim
+= c(min(x),max(x)),ylim =
+c(0,1),lwd=2,col=&quot;blue&quot;,ylab=&quot;f(x)&quot; )</p>
+
+<p class=MsoBodyText style='margin-top:9.05pt'>lines(x,f1,type=&quot;l&quot;,xlim
+= c(min(x),max(x)),ylim = c(0,1),lwd=2,col=&quot;red&quot;)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt'>lines(x,f2,type=&quot;l&quot;,xlim
+= c(min(x),max(x)),ylim = c(0,1),lwd=2,col=&quot;green&quot;)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt;margin-right:93.95pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:107%'>legend(3,0.8,legend
+=
+c(&quot;N(0.4,1.2)&quot;,&quot;N(0.4,0.6)&quot;,&quot;N(0.4,1.8)&quot;,col=c(&quot;blue&quot;,&quot;red&quot;,&quot;green&quot;),lty=c(1,1,1)))</p>
+
+</div>
+
+<span style='font-size:11.0pt;line-height:107%;font-family:"Carlito",sans-serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection8>
+
+<h2><span style='color:#2E5395'>BINOMIAL CURVE<span style='letter-spacing:-2.6pt'>
+</span>FITTING</span></h2>
+
+<p class=MsoBodyText style='margin-top:2.3pt'>x=c(0,1,2,3,4,5,6,7,8,9)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt'>f=c(7,33,54,38,35,15,7,4,1,1)</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt;margin-right:398.65pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>n=sum(f)
+dat=rep(x,f)</p>
+
+<p class=MsoBodyText style='margin-right:110.45pt;line-height:167%'>hist(dat,col=&quot;blue&quot;,xlab=&quot;x&quot;,main=&quot;Histogram&quot;)
+#Idea about the distribution lam=mean(dat) #estimate of lambda=bar(x)</p>
+
+<p class=MsoBodyText style='margin-right:271.3pt;line-height:167%'>f1=f*0
+#Initialize expected frequency f1[1]=exp(-lam) #Initial value of e^(-lam) for(i
+in 1:8)</p>
+
+<p class=MsoBodyText style='line-height:13.2pt'>{</p>
+
+<p class=MsoBodyText style='margin-top:8.9pt;margin-right:0in;margin-bottom:
+0in;margin-left:10.05pt;margin-bottom:.0001pt'>f1[i+1]=(lam/i)*f1[i]</p>
+
+<p class=MsoBodyText style='margin-top:9.05pt'>}</p>
+
+<p class=MsoBodyText style='margin-top:9.1pt;margin-right:252.45pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>f1[10]=1-sum(f1)
+#adjusting total probability Ef=n*f1 #expected frequency out=data.frame(x,Ef,f)</p>
+
+<p class=MsoBodyText style='margin-right:115.65pt;line-height:166%'>colnames(out)
+= c(&quot;|x|&quot;,&quot;|Expected Frequency|&quot;,&quot;|Observed
+Frequency|&quot;) format(out,scientific=F,digit=3)</p>
+
+<h2 style='margin-top:4.15pt'><span style='color:#2E5395'>BINOMIAL PLOT<span
+style='letter-spacing:-2.85pt'> </span>DISTRIBUTION</span></h2>
+
+<p class=MsoBodyText style='margin-top:2.3pt;margin-right:426.3pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>n=10 p=0.2</p>
+
+<p class=MsoBodyText style='margin-top:.15pt'>x=0:n</p>
+
+<p class=MsoBodyText style='margin-top:9.0pt;margin-right:319.1pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>f=dbinom(x, n, p,
+log = FALSE) plot (x,f,type=&quot;h&quot;,xlim = c(min(x),max(x)),ylim =</p>
+
+<p class=MsoBodyText style='margin-right:274.3pt;line-height:167%'>c(0,1),lwd=2,
+col=&quot;blue&quot;,ylab = &quot;p(X=x&quot;)
+points(x,f,pch=16,cex=1,col=&quot;dark red&quot;)</p>
+
+</div>
+
+<span style='font-size:11.0pt;line-height:167%;font-family:"Carlito",sans-serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection9>
+
+<h2 style='margin-left:8.6pt'><span style='color:#2E5395'>NORMAL CURVE<span
+style='letter-spacing:-2.7pt'> </span>FITTING</span></h2>
+
+<p class=MsoBodyText style='margin-top:2.3pt;margin-right:296.35pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>x=seq (146.5,
+181.5,5) # Midvalues f=c(1,3,24,58,60,27,2,2)</p>
+
+<p class=MsoBodyText style='margin-right:398.65pt;line-height:167%'>n=sum (f)
+dat=rep(x,f)</p>
+
+<p class=MsoBodyText style='margin-right:68.5pt;line-height:167%'>hist(dat,xlab=&quot;Height&quot;,main=&quot;Histogram&quot;,ylim=c(0,max(f)+3))
+# ylim needed for curve xbar=mean (dat) # Estimate of mu = mean (x)</p>
+
+<p class=MsoBodyText style='line-height:13.3pt'>s=sd(dat)</p>
+
+<p class=MsoBodyText style='margin-top:9.05pt;margin-right:186.4pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>curve
+(n*5*dnorm(x,xbar,s),col=&quot;blue&quot;, add=T) # Add curve xi=seq(144,184,5)
+# Intervalvalues</p>
+
+<p class=MsoBodyText style='margin-top:.05pt;margin-right:276.55pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>x1= (xi-xbar)/s #
+Normalize y1=dnorm(x1) # Standard normal value F1=pnorm(x1) # Df values</p>
+
+<p class=MsoBodyText style='margin-right:246.75pt;line-height:167%'>F2=c
+(0,F1,1) # Extended DF, including -Inf, Inf F3= diff (F2) # Actual Probability
+values Ef=n+F3 # Expected frequency</p>
+
+<p class=MsoBodyText style='margin-right:243.95pt;line-height:167%'>x1=c(-Inf,x,
+Inf) # Extended x, including -Inf, Inf f1=c (0,f,0) # Extended f, including
+-Inf, Inf Out=data.frame (x1,Ef,f1)</p>
+
+<p class=MsoBodyText style='margin-right:89.55pt;text-indent:2.5pt;line-height:
+167%'>colnames (Out) =c(&quot;Ix(Mid) |&quot;, &quot;|Expected Frequency
+&quot;, &quot;IObserved Frequency &quot;) format (Out, scientific = F,digit =3)</p>
+
+<h2 style='margin-top:3.55pt'><span style='color:#2E5395'>CIRCULAR SYSTEMATIC<span
+style='letter-spacing:-3.0pt'> </span>SAMPLING</span></h2>
+
+<p class=MsoBodyText style='margin-top:2.25pt;margin-right:427.75pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:166%'>N=90 n=17</p>
+
+<p class=MsoBodyText style='margin-top:.2pt;margin-right:236.2pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:158%'>r=sample(c(1:90),size=1)
+#One sample using SRS r</p>
+
+<p class=MsoBodyText style='margin-top:1.2pt'>k=N/n</p>
+
+<p class=MsoBodyText style='margin-top:9.05pt;margin-right:198.9pt;margin-bottom:
+0in;margin-left:5.0pt;margin-bottom:.0001pt;line-height:167%'>k=5 #Check the
+above k and vrite the nearest integer samp=seq(r,r+k*n,k) #Generate systematic
+sample samp=samp%%90*1 #Use nodulo function i.e ramainder</p>
+
+</div>
+
+</body>
+
+</html>
