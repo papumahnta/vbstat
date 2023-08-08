@@ -1,6 +1,6 @@
 ---
-title: Services
-layout: services
+title: Notes
+layout: notes
 description: Services
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
