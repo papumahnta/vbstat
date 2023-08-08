@@ -1,6 +1,6 @@
 .header {
   color: $primary;
-  background-color: #ffffff;
+  background-color: $primary;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,3 +25,5 @@
     }
   }
 }
+
+ 
